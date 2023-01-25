@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: 'kitten_slantregular';
+    src: url('font/kittenslanttrial-webfont.woff2') format('woff2'),
+         url('font/kittenslanttrial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  margin: 0;
+  font-family: 'kitten_slantregular';
+  font-size: 110%;
+  background-image: linear-gradient(to right, #f2bfd7, #f2e8ce);
+}
+.contentTop{
+  display: flex;
+  justify-content: center;
+}
+.haut{
+  border-top-right-radius: 1.2em;
+  border-top-left-radius: 1.2em;
+  margin-top: 1em;
+  text-align: center;
+  background-color: #35273F;
+}
+.link{
+  display: inline-block;
+  padding: 1em;
+  border-bottom: 0.125em #BEE5BF solid;
+  color: #BEE5BF;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  transition: 0.1s;
+}
+.link p{
+  top: 50px;
+}
+.info{
+  display: inline-block;
+  padding: 1em;
+  border-bottom: 0.125em #BEE5BF solid;
+  border-left: 0.125em #BEE5BF solid;
+  color: #BEE5BF;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+#devweeb{
+  display: inline-block;
+  margin-left: 1em;
+  position: absolute;
+  font-size: 130%;
+  transition: 0.1s;
+  text-decoration: none;
+}
+#devweeb:hover{
+  transform: scale(1.07);
+  color: transparent;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  background-size: 800% 800%;
+  cursor: pointer;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  animation: rainbow 6s ease infinite;
+
+}
+@keyframes rainbow{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 25%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+#cylogo{
+  display: inline-block;
+  position: absolute;
+  width: 8%;
+  margin: 1em 90%;
+}
+#deco{
+  position: absolute;
+  transform: translateX(-50px)translateY(-20px);
+  border: #BEE5BF solid 0.250em;
+  border-radius: 1em;
+  padding: 0 5px 0 5px;
+  box-sizing: border-box;
+  background-color:inherit;
+  color:#BEE5BF;
+  transition: 0.2s;
+}
+#deco:hover{
+  color:#35273f;
+  background-color:#BEE5BF;
+
+}

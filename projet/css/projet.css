@@ -1,0 +1,16 @@
+.content{
+  color:  #BEE5BF;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  width: 70%;
+  background-color: #35273F;
+  border-radius: 1em;
+  box-sizing: border-box;
+  border: solid #BEE5BF 0.250em;
+  padding: 1em;
+}
+
+#proj{
+  background: #BEE5BF;
+  color: #35273F;
+}

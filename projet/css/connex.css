@@ -1,0 +1,49 @@
+.content{
+  color:  #BEE5BF;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  width: 70%;
+  background-color: #35273F;
+  border-radius: 1em;
+  box-sizing: border-box;
+  border: solid #BEE5BF 0.250em;
+}
+
+#connex{
+  background: #BEE5BF;
+  color: #35273F;
+}
+
+.connexionBox{
+  text-align: center;
+}
+.connexionBox input{
+  font-size: 120%;
+  background-color: #7F5D98;
+  border: none;
+  outline: none;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 3em;
+}
+.connexionBox input:hover{
+  background-color: #9D81B1;
+}
+
+.connexionBox input:focus{
+  background-color: #9D81B1;
+}
+
+.minibox{
+  display: inline-block;
+  margin: 0 1em 1em 1em;
+  padding: 0.5em 0.5em 0 0.5em;
+  background-color: #35273F;
+  border: #BEE5BF 0.075em solid;
+  border-radius: 1em;
+  transition: 0.2s;
+}
+#notif {
+  color: #ff6666;
+  font-size: 130%;
+}
